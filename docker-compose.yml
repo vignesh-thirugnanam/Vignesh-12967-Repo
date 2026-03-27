@@ -34,7 +34,7 @@ services:
       SPRING_DATASOURCE_USERNAME: root
       SPRING_DATASOURCE_PASSWORD: root
     ports:
-      - "8080:9090"
+      - "8081:9091"
     networks:
       - fullstack-net
 
